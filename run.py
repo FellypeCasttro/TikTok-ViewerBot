@@ -19,7 +19,7 @@ driver = webdriver.Chrome(webdriver_path, chrome_options=chrome_options)
 
 print("Welcome to Flynn's Tiktok Viewer Bot.")
 print("Press (crtl + c) to exit it")
-urlVar = input("Input the link for the video you would like to bot! ")
+urlVar = input("https://www.tiktok.com/@gusttavi/video/7314005247985224966")
 
 driver.get("https://zefoy.com/")
 os.system('cls')
