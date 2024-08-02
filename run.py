@@ -24,7 +24,7 @@ driver = webdriver.Chrome(service=webdriver.chrome.service.Service(ChromeDriverM
 
 print("Welcome to Flynn's Tiktok Viewer Bot.")
 print("Press (ctrl + c) to exit it")
-urlVar = input("Enter TikTok URL:\n")
+urlVar = input("https://www.tiktok.com/@gusttavi/video/7314005247985224966")
 
 driver.get("https://zefoy.com/")
 os.system('cls' if os.name == 'nt' else 'clear')  # Limpa o terminal
